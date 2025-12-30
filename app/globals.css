@@ -5,7 +5,7 @@
   --foreground: #171717;
 }
 
-@theme {
+@theme inline {
   --font-accent: var(--font-accent);
   --font-base: var(--font-base);
   --font-special: var(--font-special);

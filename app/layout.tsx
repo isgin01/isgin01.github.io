@@ -21,7 +21,7 @@ export const specialFont = IM_Fell_English_SC({
 });
 
 export const metadata: Metadata = {
-  title: "isgin01 - personal website",
+  title: "isgin01's ruminations",
   // TODO
   description: "",
 };
