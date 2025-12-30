@@ -13,21 +13,15 @@ export default function About() {
 function Card() {
   return (
     <div className="text-burgundy from-light to-dusk box-border flex aspect-3/5 h-full max-h-11/12 w-11/12 flex-col rounded-4xl bg-linear-to-b sm:h-11/12 sm:w-auto">
-      <div className="min-h-10 shrink-0 p-5">
-        <CardHeader />
-      </div>
-      <div className="flex flex-1 flex-col items-center justify-center">
-        <div className="p-5 text-justify text-xl wrap-break-word">
-          <CardContent />
-        </div>
-      </div>
+      <CardHeader />
+      <CardContent />
     </div>
   );
 }
 
 function CardHeader() {
   return (
-    <div className="text-burgundy font-accent flex w-full items-center justify-between text-3xl capitalize">
+    <div className="text-burgundy font-accent flex min-h-10 shrink-0 items-center justify-between p-5 text-3xl capitalize">
       <Link href={ASSETS.github}>GitHub</Link>
       <img src={ASSETS.rhombuses} />
       <Link href={"/posts"}>Posts</Link>
@@ -37,7 +31,7 @@ function CardHeader() {
 
 function CardContent() {
   return (
-    <>
+    <div className="flex flex-1 flex-col items-center justify-center p-5 text-justify text-xl">
       <div className="flex justify-center">
         <img src={ASSETS.profileImage} className="max-h-30 rounded-full" />
       </div>
@@ -45,6 +39,6 @@ function CardContent() {
         <p className="font-accent text-2xl">isgin01</p>
         <p className="font-special text-3xl">Javascript Developer</p>
       </div>
-    </>
+    </div>
   );
 }
