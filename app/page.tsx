@@ -21,9 +21,9 @@ function Card() {
 
 function CardHeader() {
   return (
-    <div className="text-burgundy font-accent flex min-h-10 shrink-0 items-center justify-between p-5 text-3xl capitalize">
+    <div className="text-burgundy font-accent relative flex min-h-10 shrink-0 items-center justify-between p-5 text-3xl capitalize">
       <Link href={ASSETS.github}>GitHub</Link>
-      <img src={ASSETS.rhombuses} />
+      <img src={ASSETS.rhombuses} className="absolute right-0 left-0 m-auto" />
       <Link href={"/posts"}>Posts</Link>
     </div>
   );
