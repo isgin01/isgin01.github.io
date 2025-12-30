@@ -1,14 +1,22 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inria_Serif, Forum, IM_Fell_English_SC } from "next/font/google";
 import "@/app/globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+export const accentFont = Inria_Serif({
+  weight: "400",
+  variable: "--font-accent",
   subsets: ["latin"],
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+export const baseFont = Forum({
+  weight: "400",
+  variable: "--font-base",
+  subsets: ["latin"],
+});
+
+export const specialFont = IM_Fell_English_SC({
+  weight: "400",
+  variable: "--font-special",
   subsets: ["latin"],
 });
 
@@ -24,10 +32,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} flex h-screen w-screen flex-col items-center justify-center antialiased`}
-      >
+    <html
+      lang="en"
+      className={`${accentFont.variable} ${baseFont.variable} ${specialFont.variable}`}
+    >
+      <body className="flex h-screen w-screen flex-col items-center justify-center antialiased">
         {children}
       </body>
     </html>
