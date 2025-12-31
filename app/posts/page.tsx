@@ -1,13 +1,20 @@
 import Link from "next/link";
+import { getAllPosts } from "@/app/lib/api";
 
 export default function Posts() {
+  const posts = getAllPosts();
+
   return (
     <div className="bg-light min-h-screen w-full overflow-x-scroll md:w-4/6 lg:w-3/5 xl:w-2/5">
       <Header />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      {posts.map((post, idx) => (
+        <Post
+          key={idx}
+          title={post.title}
+          date={post.date}
+          description={post.description}
+        />
+      ))}
     </div>
   );
 }
@@ -21,10 +28,21 @@ function Header() {
   );
 }
 
-function Post() {
+function Post({
+  title,
+  date,
+  description,
+}: {
+  title: string;
+  date: string;
+  description: string;
+}) {
   return (
-    <div className="font-base mx-3 mb-5 flex h-20 bg-red-100">
+    <div className="font-base text-burgundy mx-3 mb-5 flex h-20 bg-red-100">
       <div className="bg-burgundy aspect-square h-full"></div>
+      <p>{title}</p>
+      <p>{description}</p>
+      <p>{date}</p>
     </div>
   );
 }
