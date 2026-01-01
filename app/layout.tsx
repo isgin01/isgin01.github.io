@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${baseFont.variable}`}>
-      <body className="flex h-screen w-screen flex-col items-center justify-center antialiased">
+      <body className="flex min-h-screen w-screen flex-col items-center justify-center overflow-x-hidden antialiased">
         {children}
       </body>
     </html>

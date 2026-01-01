@@ -1,19 +1,18 @@
 import Link from "next/link";
 import { getAllPosts } from "@/app/lib/api";
-import type { Post } from "../types/post";
-import truncateAtLastWord from "../lib/truncateAtLastWord";
+import type { Post } from "@/app/types/post";
+import truncateAtLastWord from "@/app/lib/truncateAtLastWord";
 
-const CHARACTERS_PER_PAGE = 1800;
 const DESCRIPTION_LEN = 150;
 
 export default function Posts() {
   const posts = getAllPosts();
 
   return (
-    <div className="min-h-screen w-full overflow-x-scroll overflow-y-hidden md:w-4/6 lg:w-3/5 xl:w-2/5">
+    <div className="mb-30 min-h-screen w-full md:w-4/6 lg:w-3/5 xl:w-2/5">
       <Header />
       {posts.map((post, idx) => (
-        <Post key={idx} data={post} />
+        <Post data={post} key={idx} />
       ))}
     </div>
   );
@@ -31,14 +30,12 @@ function Post({ data }: { data: Post }) {
   const desc = truncateAtLastWord(data.content, DESCRIPTION_LEN);
 
   return (
-    <Link href={`/posts/${data.slug}`}>
-      <div className="font-base relative mx-3 mb-5 flex max-h-20 flex-col gap-1.5 rounded-sm pl-3">
-        <p className="text-3xl font-bold">
-          # {data.title} somewhat longer than it is expected
-        </p>
-        <p className="text-xl">{data.date} :: ???</p>
-        <p className="text-xl">{desc}...</p>
-      </div>
-    </Link>
+    <div className="font-base pl- relative mx-3 mb-12 flex min-h-20 flex-col gap-1.5 rounded-sm">
+      <Link href={`/posts/${data.slug}`}>
+        <p className="text-3xl font-bold"># {data.title}</p>
+      </Link>
+      <p className="text-xl">{data.date} :: ???</p>
+      <p className="text-xl">{desc}...</p>
+    </div>
   );
 }
