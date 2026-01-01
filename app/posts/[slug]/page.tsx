@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/app/lib/api";
-import markdownToHtml from "@/app/lib/markdownToHtml";
+import convertToHtmlFrom from "@/app/lib/convertToHtmlFrom";
 import Link from "next/link";
 import makeDescriptionFrom from "@/app/lib/makeDescriptionFrom";
 
@@ -16,7 +16,7 @@ export default async function Post(props: Params) {
     return notFound();
   }
 
-  const content = await markdownToHtml(post.content || "");
+  const content = await convertToHtmlFrom(post.content || "");
 
   return (
     <>
