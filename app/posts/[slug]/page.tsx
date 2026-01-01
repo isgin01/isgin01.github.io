@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/app/lib/api";
 import markdownToHtml from "@/app/lib/markdownToHtml";
 import Link from "next/link";
+import makeDescriptionFrom from "@/app/lib/makeDescriptionFrom";
 
 // TODO extract it to constants.ts
 const WEBSITE_URL = "https://isgin01.github.io";
@@ -46,7 +47,7 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
   }
 
   const title = `${post.title} | isgin01's whispers`;
-  const description = post.description;
+  const description = makeDescriptionFrom(post.content);
 
   return {
     title,

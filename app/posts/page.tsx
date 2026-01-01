@@ -2,9 +2,7 @@ import Link from "next/link";
 
 import { getAllPosts } from "@/app/lib/api";
 import type { Post } from "@/app/types/post";
-import truncateAtLastWord from "@/app/lib/truncateAtLastWord";
-
-const DESCRIPTION_LEN = 150;
+import makeDescriptionFrom from "@/app/lib/makeDescriptionFrom";
 
 export default function Posts() {
   const posts = getAllPosts();
@@ -19,7 +17,7 @@ export default function Posts() {
 }
 
 function Post({ data }: { data: Post }) {
-  const desc = truncateAtLastWord(data.content, DESCRIPTION_LEN);
+  const desc = makeDescriptionFrom(data.content);
 
   return (
     <div className="font-base pl- relative mx-3 mb-12 flex min-h-20 flex-col gap-1.5 rounded-sm">
