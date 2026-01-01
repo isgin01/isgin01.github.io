@@ -9,7 +9,7 @@ export const baseFont = Inria_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "isgin01's ruminations",
+  title: "isgin01's blog",
   // TODO
   description: "",
 };

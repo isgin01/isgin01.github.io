@@ -1,9 +1,9 @@
 import Link from "next/link";
+import * as constants from "@/app/lib/constants";
 
 const ASSETS = {
   profileImage: "/img/profile.png",
   rhombuses: "/img/rhombuses.svg",
-  github: "https://github.com/isgin01",
 };
 
 export default function About() {
@@ -12,7 +12,7 @@ export default function About() {
 
 function Card() {
   return (
-    <div className="from-light to-dusk box-border flex aspect-3/5 h-full max-h-11/12 w-11/12 flex-col rounded-4xl bg-linear-to-b sm:h-11/12 sm:w-auto">
+    <div className="from-light to-background box-border flex aspect-3/5 h-full max-h-11/12 w-11/12 flex-col rounded-4xl bg-linear-to-b sm:h-11/12 sm:w-auto">
       <CardHeader />
       <CardContent />
     </div>
@@ -22,7 +22,7 @@ function Card() {
 function CardHeader() {
   return (
     <div className="relative flex min-h-10 shrink-0 items-center justify-between p-5 text-3xl capitalize">
-      <Link href={ASSETS.github}>GitHub</Link>
+      <Link href={constants.GITHUB_LINK}>GitHub</Link>
       <img src={ASSETS.rhombuses} className="absolute right-0 left-0 m-auto" />
       <Link href={"/posts"}>Posts</Link>
     </div>

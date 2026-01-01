@@ -4,8 +4,8 @@ import { getAllPosts, getPostBySlug } from "@/app/lib/api";
 import convertToHtmlFrom from "@/app/lib/convertToHtmlFrom";
 import Link from "next/link";
 import makeDescriptionFrom from "@/app/lib/makeDescriptionFrom";
+import * as constants from "@/app/lib/constants";
 
-// TODO extract it to constants.ts
 const WEBSITE_URL = "https://isgin01.github.io";
 
 export default async function Post(props: Params) {
@@ -22,7 +22,7 @@ export default async function Post(props: Params) {
     <>
       <h1 className="mb-5 text-3xl"> {post.title}</h1>
       <p className="mb-5 text-xl">
-        {post.date} by <Link href="https://github.com/isgin01">isgin01</Link>
+        {post.date} by <Link href={constants.GITHUB_LINK}>isgin01</Link>
       </p>
       <div
         className="flex flex-col gap-9 text-justify text-xl"
@@ -46,7 +46,7 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
     return notFound();
   }
 
-  const title = `${post.title} | isgin01's whispers`;
+  const title = `${post.title}`;
   const description = makeDescriptionFrom(post.content);
 
   return {
