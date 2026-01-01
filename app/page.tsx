@@ -12,7 +12,7 @@ export default function About() {
 
 function Card() {
   return (
-    <div className="text-burgundy from-light to-dusk box-border flex aspect-3/5 h-full max-h-11/12 w-11/12 flex-col rounded-4xl bg-linear-to-b sm:h-11/12 sm:w-auto">
+    <div className="from-light to-dusk box-border flex aspect-3/5 h-full max-h-11/12 w-11/12 flex-col rounded-4xl bg-linear-to-b sm:h-11/12 sm:w-auto">
       <CardHeader />
       <CardContent />
     </div>
@@ -21,7 +21,7 @@ function Card() {
 
 function CardHeader() {
   return (
-    <div className="text-burgundy font-accent relative flex min-h-10 shrink-0 items-center justify-between p-5 text-3xl capitalize">
+    <div className="relative flex min-h-10 shrink-0 items-center justify-between p-5 text-3xl capitalize">
       <Link href={ASSETS.github}>GitHub</Link>
       <img src={ASSETS.rhombuses} className="absolute right-0 left-0 m-auto" />
       <Link href={"/posts"}>Posts</Link>
@@ -36,7 +36,7 @@ function CardContent() {
         <img src={ASSETS.profileImage} className="max-h-30 rounded-full" />
       </div>
       <div className="my-5 flex flex-col items-center justify-center">
-        <p className="font-accent text-2xl">isgin01</p>
+        <p className="text-2xl">isgin01</p>
         <p className="font-special text-3xl">Javascript Developer</p>
       </div>
     </div>

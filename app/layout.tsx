@@ -1,22 +1,10 @@
 import type { Metadata } from "next";
-import { Inria_Serif, Forum, IM_Fell_English_SC } from "next/font/google";
+import { Inria_Sans } from "next/font/google";
 import "@/app/globals.css";
 
-export const accentFont = Inria_Serif({
-  weight: "400",
-  variable: "--font-accent",
-  subsets: ["latin"],
-});
-
-export const baseFont = Forum({
+export const baseFont = Inria_Sans({
   weight: "400",
   variable: "--font-base",
-  subsets: ["latin"],
-});
-
-export const specialFont = IM_Fell_English_SC({
-  weight: "400",
-  variable: "--font-special",
   subsets: ["latin"],
 });
 
@@ -32,10 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${accentFont.variable} ${baseFont.variable} ${specialFont.variable}`}
-    >
+    <html lang="en" className={`${baseFont.variable}`}>
       <body className="flex h-screen w-screen flex-col items-center justify-center antialiased">
         {children}
       </body>
