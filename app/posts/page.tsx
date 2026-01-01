@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 import { getAllPosts } from "@/app/lib/api";
 import type { Post } from "@/app/types/post";
 import truncateAtLastWord from "@/app/lib/truncateAtLastWord";
@@ -9,20 +10,11 @@ export default function Posts() {
   const posts = getAllPosts();
 
   return (
-    <div className="mb-30 min-h-screen w-full md:w-4/6 lg:w-3/5 xl:w-2/5">
-      <Header />
+    <>
       {posts.map((post, idx) => (
         <Post data={post} key={idx} />
       ))}
-    </div>
-  );
-}
-
-function Header() {
-  return (
-    <div className="font-base mb-14 flex h-15 w-full flex-row items-center justify-end gap-5 text-[clamp(2em,5vw,2em)]">
-      <Link href="/">About</Link>
-    </div>
+    </>
   );
 }
 

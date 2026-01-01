@@ -7,7 +7,7 @@
 @theme inline {
   --font-base: var(--font-base);
   --color-blood: rgb(192, 25, 25);
-  --color-dusk: #9f9f9f;
+  --color-background: var(--background);
 }
 
 body {

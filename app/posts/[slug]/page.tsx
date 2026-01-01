@@ -14,9 +14,9 @@ export default async function Post(props: Params) {
     return notFound();
   }
 
-  const content = markdownToHtml(post.content || "");
+  const content = await markdownToHtml(post.content || "");
 
-  return <div>{content}</div>;
+  return <div dangerouslySetInnerHTML={{ __html: content }}></div>;
 }
 
 type Params = {
