@@ -6,7 +6,7 @@ export default function PageLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="mb-30 min-h-screen w-full md:w-4/6 lg:w-3/5 xl:w-2/5">
+    <div className="mb-20 min-h-screen w-full md:w-4/6 lg:w-3/5 xl:w-2/5">
       <Header />
       {children}
     </div>
@@ -15,8 +15,9 @@ export default function PageLayout({
 
 function Header() {
   return (
-    <div className="font-base mb-14 flex h-15 w-full flex-row items-center justify-end gap-5 text-[clamp(2em,5vw,2em)]">
+    <div className="font-base mb-10 flex h-15 w-full flex-row items-center justify-end gap-5 text-[clamp(2em,5vw,2em)]">
       <Link href="/">About</Link>
+      <Link href="/posts">Posts</Link>
     </div>
   );
 }

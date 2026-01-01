@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { getAllPosts, getPostBySlug } from "@/app/lib/api";
 import markdownToHtml from "@/app/lib/markdownToHtml";
+import Link from "next/link";
 
 // TODO extract it to constants.ts
 const WEBSITE_URL = "https://isgin01.github.io";
@@ -16,7 +17,18 @@ export default async function Post(props: Params) {
 
   const content = await markdownToHtml(post.content || "");
 
-  return <div dangerouslySetInnerHTML={{ __html: content }}></div>;
+  return (
+    <>
+      <h1 className="mb-5 text-3xl"> {post.title}</h1>
+      <p className="mb-5 text-xl">
+        {post.date} by <Link href="https://github.com/isgin01">isgin01</Link>
+      </p>
+      <div
+        className="flex flex-col gap-9 text-justify text-xl"
+        dangerouslySetInnerHTML={{ __html: content }}
+      ></div>
+    </>
+  );
 }
 
 type Params = {
@@ -33,7 +45,7 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
     return notFound();
   }
 
-  const title = `${post.title} | isgin01's ruminations`;
+  const title = `${post.title} | isgin01's whispers`;
   const description = post.description;
 
   return {

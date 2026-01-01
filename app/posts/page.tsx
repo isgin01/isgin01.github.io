@@ -26,7 +26,7 @@ function Post({ data }: { data: Post }) {
       <Link href={`/posts/${data.slug}`}>
         <p className="text-3xl font-bold"># {data.title}</p>
       </Link>
-      <p className="text-xl">{data.date} :: ???</p>
+      <p className="text-xl">{data.date}</p>
       <p className="text-xl">{desc}...</p>
     </div>
   );

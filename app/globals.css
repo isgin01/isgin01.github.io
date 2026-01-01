@@ -1,13 +1,12 @@
 @import "tailwindcss";
-
 :root {
   --background: #d9d9d9;
 }
 
 @theme inline {
   --font-base: var(--font-base);
-  --color-blood: rgb(192, 25, 25);
   --color-background: var(--background);
+  --color-blood: rgba(192, 25, 25, 0.7);
 }
 
 body {
@@ -15,5 +14,13 @@ body {
 }
 
 ::selection {
-  background-color: var(--color-blood);
+  background-color: rgba(192, 25, 25, 0.9);
+}
+
+a {
+  text-decoration: underline;
+}
+
+code {
+  font-family: monospace;
 }
