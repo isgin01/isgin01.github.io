@@ -6,12 +6,14 @@
 
 @theme inline {
   --font-base: var(--font-base);
-  --color-burgundy: #412e2e;
+  --color-blood: rgb(192, 25, 25);
   --color-dusk: #9f9f9f;
-  --color-mud: #575454;
 }
 
 body {
   background: var(--background);
-  color: var(--foreground);
+}
+
+::selection {
+  background-color: var(--color-blood);
 }
