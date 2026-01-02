@@ -15,7 +15,7 @@ export default function PageLayout({
 
 function Header() {
   return (
-    <div className="font-base mb-10 flex h-15 w-full flex-row items-center justify-end gap-5 text-[clamp(2em,5vw,2em)]">
+    <div className="font-base mb-10 flex h-15 w-full flex-row items-center justify-end gap-5 text-2xl">
       <Link href="/">About</Link>
       <Link href="/posts">Posts</Link>
     </div>
