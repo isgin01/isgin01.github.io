@@ -23,7 +23,7 @@ function Post({ data }: { data: Post }) {
   return (
     <div className="font-base pl- relative mx-3 mb-12 flex min-h-20 flex-col gap-1.5 rounded-sm">
       <Link href={`/posts/${data.slug}`}>
-        <p className="text-3xl font-bold"># {data.title}</p>
+        <h2 className="text-3xl font-bold"># {data.title}</h2>
       </Link>
       <p className="text-xl">{data.date}</p>
       <p className="text-xl">{desc}...</p>

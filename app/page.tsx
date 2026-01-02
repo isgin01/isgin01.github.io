@@ -3,42 +3,53 @@ import * as constants from "@/app/lib/constants";
 
 const ASSETS = {
   profileImage: "/img/profile.png",
-  rhombuses: "/img/rhombuses.svg",
 };
 
 export default function About() {
-  return <Card />;
-}
-
-function Card() {
   return (
-    <div className="from-light to-background box-border flex aspect-3/5 h-full max-h-11/12 w-11/12 flex-col rounded-4xl bg-linear-to-b sm:h-11/12 sm:w-auto">
-      <CardHeader />
-      <CardContent />
-    </div>
-  );
-}
-
-function CardHeader() {
-  return (
-    <div className="relative flex min-h-10 shrink-0 items-center justify-between p-5 text-3xl capitalize">
-      <Link href={constants.GITHUB_LINK}>GitHub</Link>
-      <img src={ASSETS.rhombuses} className="absolute right-0 left-0 m-auto" />
-      <Link href={"/posts"}>Posts</Link>
-    </div>
-  );
-}
-
-function CardContent() {
-  return (
-    <div className="flex flex-1 flex-col items-center justify-center p-5 text-justify text-xl">
-      <div className="flex justify-center">
-        <img src={ASSETS.profileImage} className="max-h-30 rounded-full" />
+    <>
+      <div className="mb-7 flex min-h-30 w-full items-center justify-center p-2">
+        <img src={ASSETS.profileImage} alt="isgin01's picture" />
       </div>
-      <div className="my-5 flex flex-col items-center justify-center">
-        <p className="text-2xl">isgin01</p>
-        <p className="font-special text-3xl">Javascript Developer</p>
+      <div className="mb-7 flex items-center justify-center text-2xl">
+        @isgin01
       </div>
-    </div>
+      <div className="mb-15 flex h-5 w-full justify-around text-xl font-semibold text-wrap">
+        <Link href={`mailto:${constants.EMAIL}`}>{constants.EMAIL}</Link>
+        ::
+        <Link href={constants.GITHUB_LINK}>GitHub</Link>
+        ::
+        <Link href={constants.GITHUB_LINK}>Telegram</Link>
+        ::
+        <Link href={constants.MATRIX}>{constants.MATRIX}</Link>
+      </div>
+      <div className="flex min-h-20 w-full flex-col justify-center text-justify text-xl">
+        <p>
+          A hardcore JS developer. I have worked on{" "}
+          <Link href="https://audata.space" className="underline">
+            audata.space
+          </Link>
+          where I learned how little did I know about suffering. I have
+          co-developed{" "}
+          <Link
+            href="https://github.com/cape4labs/sunflower_wallet_app"
+            className="underline"
+          >
+            sunflower.btc
+          </Link>
+          where I learned that I should master one technology first before going
+          after another one. Finally, when I worked on
+          <Link
+            href="https://github.com/cape4labs/sunflower_wallet_app"
+            className="underline"
+          >
+            cape4labs.tech
+          </Link>
+          I realized that I'm going to become a hardcore programmer, so I made
+          my way to countless books I want to read (I'm still at the stage of
+          reading them).
+        </p>
+      </div>
+    </>
   );
 }
