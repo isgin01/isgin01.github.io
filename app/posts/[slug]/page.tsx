@@ -47,7 +47,10 @@ export async function generateMetadata(props: Params): Promise<Metadata> {
   }
 
   const title = `${post.title}`;
-  const description = makeDescriptionFrom(post.content);
+  const description = makeDescriptionFrom(
+    post.content,
+    constants.DESCRIPTION_CHAR_LIMIT,
+  );
 
   return {
     title,
