@@ -1,5 +1,6 @@
 +++
-title = "Hire me"
+title = "isgin01 - hire me"
+description = "A section on isgin01's personal website explaining why you should hire him."
 template = "prose.html"
 insert_anchor_links = "none"
 
@@ -13,11 +14,15 @@ comment = false
 reaction = false
 +++
 
-My name is Ivan Smagin and I'm a JS software developer. I'm the most proficient in JS ecosystem with some knowledge of Python as well.
+# Hire me
 
-## What I worked on most
+[resume.pdf](resume-isgin01-2026-01.pdf)
 
-### AudataDAO
+I'm a full-stack JS engineer.
+
+Projects I’m most proud of:
+
+## AudataDAO
 
 A DataDAO built on network $VANA that lets you upload your voice and get $AUDATA token for it later to collect data to fuel AI voice agents.
 
@@ -25,15 +30,19 @@ A DataDAO built on network $VANA that lets you upload your voice and get $AUDATA
 - [Twitter/X](https://x.com/audatadao)
 - [GitHub](https://github.com/cape4labs/audatadao_dlp_ui)
 
-### Sunflower wallet
+## Sunflower wallet
 
-A Stacks blockchain only hot-wallet with focus BTCFi operations.
+A Stacks blockchain only hot-wallet with focus on BTCFi operations.
 
 - [Website](https://sunflower-wallet.webflow.io/)
 - [GitHub](https://github.com/cape4labs/sunflower_wallet_app)
 
-### Zauth
+## Zauth
 
 A secure storage for your social media data encrypted on-chain for connection with various SocialFi / InfoFi platforms.
 
 - [Github](https://github.com/cape4labs/zauth_frontend)
+
+---
+
+Everything was possible because of the wonderful people from [cape4labs team](https://github.com/cape4labs).
