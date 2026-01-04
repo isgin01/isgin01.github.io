@@ -6,8 +6,8 @@
 #=========================================================================================
 
 base_url = "https://isgin01.github.io"
-title = "isgin01's blog"
-description = "xxxx xxxx xxxx"
+title = "isgin01's personal website"
+description = "I like books, mathematics, programming, and languages."
 default_language = "en"
 theme = "serene"
 output_dir = "public"
@@ -18,7 +18,7 @@ generate_feeds = false # Whether to generate a feed file in root, read docs for 
 feed_filenames = [
   "feed.xml",
 ] # "feed.xml" | "atom.xml" | "rss.xml", read docs for more info
-taxonomies = [{ name = "tags" }, { name = "categories" }]
+# taxonomies = [{ name = "tags" }, { name = "categories" }]
 
 [markdown]
 highlight_code = true
@@ -46,7 +46,7 @@ anchors = "on"
 sections = [
   { name = "hire me", path = "/hireme", is_external = false },
   { name = "posts", path = "/posts", is_external = false },
-  # { name = "github", path = "https://github.com/<your-username>", is_external = true },
+  # { name = "github", path = "https://github.com/isgin01", is_external = true },
 ]
 blog_section_path = "/posts"
 
