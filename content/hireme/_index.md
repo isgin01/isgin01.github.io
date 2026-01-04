@@ -20,7 +20,7 @@ reaction = false
 
 I'm a full-stack JS engineer.
 
-Projects I’m most proud of:
+Projects I’m most proud of are:
 
 ## AudataDAO
 

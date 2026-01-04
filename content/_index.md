@@ -25,4 +25,4 @@ recent_more_text = "more »"
 date_format = "%b %-d, %Y"
 +++
 
-Hi, I'm a
+I'm a full-stack JS/Python developer. I like reading books, solving math, programming, and learning languages.
