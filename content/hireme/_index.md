@@ -19,7 +19,7 @@ reaction = false
 Resume:
 [resume.pdf](resume-isgin01-2026-01.pdf)
 
-I'm a full-stack JS/Python engineer with experience in web3. I have worked as an independed contractor, full-time worker, and a freelancer which gave me strong ability to adapt and change. Below are the projects I'm most proud of.
+I am a full-stack JS/Python engineer with experience in web3. I have worked as an independed contractor, full-time worker, and a freelancer, which gave me strong ability to adapt and change. Below are the projects I'm most proud of.
 
 ### AudataDAO
 
