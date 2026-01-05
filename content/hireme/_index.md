@@ -16,13 +16,12 @@ reaction = false
 
 # Hire me
 
+Resume:
 [resume.pdf](resume-isgin01-2026-01.pdf)
 
-I'm a full-stack JS engineer.
+I'm a full-stack JS/Python engineer with experience in web3. I have worked as an independed contractor, full-time worker, and a freelancer which gave me strong ability to adapt and change. Below are the projects I'm most proud of.
 
-Projects I’m most proud of are:
-
-## AudataDAO
+### AudataDAO
 
 A DataDAO built on network $VANA that lets you upload your voice and get $AUDATA token for it later to collect data to fuel AI voice agents.
 
@@ -30,14 +29,14 @@ A DataDAO built on network $VANA that lets you upload your voice and get $AUDATA
 - [Twitter/X](https://x.com/audatadao)
 - [GitHub](https://github.com/cape4labs/audatadao_dlp_ui)
 
-## Sunflower wallet
+### Sunflower wallet
 
 A Stacks blockchain only hot-wallet with focus on BTCFi operations.
 
 - [Website](https://sunflower-wallet.webflow.io/)
 - [GitHub](https://github.com/cape4labs/sunflower_wallet_app)
 
-## Zauth
+### Zauth
 
 A secure storage for your social media data encrypted on-chain for connection with various SocialFi / InfoFi platforms.
 
@@ -45,4 +44,4 @@ A secure storage for your social media data encrypted on-chain for connection wi
 
 ---
 
-Everything was possible because of the wonderful people from [cape4labs team](https://github.com/cape4labs).
+Everything was possible because of the wonderful people from [cape4labs team](https://github.com/cape4labs). Thank you for your time! :)
