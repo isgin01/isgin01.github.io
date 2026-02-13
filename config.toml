@@ -20,19 +20,20 @@ feed_filenames = [
 ] # "feed.xml" | "atom.xml" | "rss.xml", read docs for more info
 # taxonomies = [{ name = "tags" }, { name = "categories" }]
 
+# New
 [markdown]
-highlight_code = true
-highlight_theme = "css"
-extra_syntaxes_and_themes = ["themes/serene/highlight_themes"]
-highlight_themes_css = [
-  { theme = "serene-light", filename = "hl-light.css" },
-  { theme = "serene-dark", filename = "hl-dark.css" },
-]
+github_alerts = false # optional, enables GitHub-style callout syntax
 render_emoji = false
 external_links_target_blank = false
 external_links_no_follow = true
 external_links_no_referrer = true
 smart_punctuation = false
+
+
+[markdown.highlighting]
+style = "class"
+light_theme = "github-light"  # or any zola built-in theme
+dark_theme = "github-dark"    # or any zola built-in theme
 
 [slugify]
 paths = "on"
@@ -45,7 +46,6 @@ anchors = "on"
 
 sections = [
   { name = "hire me", path = "/hireme", is_external = false },
-  { name = "resume", path = "/hireme/resume-isgin01-2026-01.pdf", is_external = true },
   { name = "posts", path = "/posts", is_external = false },
 ]
 blog_section_path = "/posts"
