@@ -25,4 +25,4 @@ recent_more_text = "more »"
 date_format = "%b %-d, %Y"
 +++
 
-I'm currently a full-stack JS/Python developer. I like reading books, solving math, programming, and learning languages. You can message me on any platform listed on the right, or read my hireme section.
+Hello! I'm isgin01, and a full-stack developer. I like books, math, and programming. You can message me on any platform listed on the right, or read my hireme section.
