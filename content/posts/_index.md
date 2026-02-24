@@ -1,6 +1,6 @@
 +++
 title = "isgin01's posts"
-description = "I like books, mathematics, programming, and languages."
+description = "I like mathematics, programming, and books."
 sort_by = "date"
 template = "blog.html"
 page_template = "post.html"
