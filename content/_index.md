@@ -18,7 +18,7 @@ links = [
     { name = "Telegram", icon = "telegram", url = "https://t.me/isgin01" },
 ]
 
-# Show a few recent posts in home page
+# Show a few recent notes in home page
 recent = false
 recent_max = 15
 recent_more_text = "more »"

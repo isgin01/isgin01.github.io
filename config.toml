@@ -7,7 +7,7 @@
 
 base_url = "https://isgin01.github.io"
 title = "isgin01's personal website"
-description = "I like books, mathematics, programming, and languages."
+description = "I like books, mathematics, and programming."
 default_language = "en"
 theme = "serene"
 output_dir = "public"
@@ -46,9 +46,9 @@ anchors = "on"
 
 sections = [
   { name = "hireme", path = "/hireme", is_external = false },
-  { name = "posts", path = "/posts", is_external = false },
+  { name = "notes", path = "/notes", is_external = false },
 ]
-blog_section_path = "/posts"
+blog_section_path = "/notes"
 
 back_link_text = "Back" # Text of the back button
 force_theme = false     # false | "light" | "dark"

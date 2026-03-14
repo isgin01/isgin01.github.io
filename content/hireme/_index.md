@@ -1,6 +1,6 @@
 +++
 title = "isgin01 - hire me"
-description = "A section on isgin01's personal website explaining why you should hire him."
+description = "Hireme section on my website."
 template = "prose.html"
 insert_anchor_links = "none"
 
@@ -19,7 +19,7 @@ reaction = false
 Resume:
 [resume.pdf](resume-isgin01-2026-01.pdf)
 
-I am a full-stack JS/Python engineer with experience in web3. I have worked as an independed contractor, full-time worker, and a freelancer, which gave me strong ability to adapt and change. Below are the projects I'm most proud of.
+I am a full-stack JS/Python engineer with experience in web3. I have worked as an independent contractor, full-time worker, and a freelancer, which gave me strong ability to adapt and change. Below are the projects I'm most proud of:
 
 ### AudataDAO
 
