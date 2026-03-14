@@ -1,21 +1,21 @@
 +++
-title = "isgin01's posts"
+title = "isgin01's notes"
 description = "I like mathematics, programming, and books."
 sort_by = "date"
 template = "blog.html"
-page_template = "post.html"
+page_template = "note.html"
 insert_anchor_links = "right"
 generate_feeds = true
 
 [extra]
 lang = "en"
 
-title = "Posts"
+title = "Notes"
 # subtitle = "I write about ...."
 
 date_format = "%b %-d, %Y"
 
-categorized = false # posts can be categorized
+categorized = false # notes can be categorized
 back_to_top = true # show back-to-top button
 toc = true # show table-of-contents
 comment = false # enable comment
