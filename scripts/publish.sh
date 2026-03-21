@@ -12,6 +12,6 @@ zola check
 
 git archive --format=zip --output=static/isgin01-website.zip HEAD
 
-git bundle create static/isgin01-website-clone-with-git.bundle --all
+git bundle create static/isgin01-website-clone-this-with-git.bundle --all
 
 lazygit
