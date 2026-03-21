@@ -44,12 +44,30 @@ header {
   align-items: center;
 }
 
+@media (max-width: 1024px) {
+  .container-for-my-notes header {
+    gap: 0.5em;
+  }
+}
+
 #my-precious-notes {
   width: 40vw;
   margin-top: 4em;
   display: flex;
   flex-direction: column;
   gap: 0.5em;
+}
+
+@media (max-width: 1024px) {
+  #my-precious-notes {
+    width: 70vw;
+  }
+}
+
+@media (max-width: 550px) {
+  #my-precious-notes {
+    width: 90vw;
+  }
 }
 
 #my-precious-notes i {
