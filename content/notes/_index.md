@@ -1,28 +1,6 @@
 +++
-title = "isgin01's notes"
-description = "I like mathematics, programming, and books."
-sort_by = "date"
-template = "blog.html"
-page_template = "note.html"
-insert_anchor_links = "right"
-generate_feeds = true
-
-[extra]
-lang = "en"
-
-title = "Notes"
-# subtitle = "I write about ...."
-
-date_format = "%b %-d, %Y"
-
-categorized = false # notes can be categorized
-back_to_top = true # show back-to-top button
-toc = true # show table-of-contents
-comment = false # enable comment
-copy = true # show copy button in code block
-
-outdate_alert = false
-outdate_alert_days = 12
-outdate_alert_text_before = "This article was last updated "
-outdate_alert_text_after = " days ago and may be out of date."
+title="notes"
+description="These are my precious notes. I adore them and wish everybody could read them!"
+template="notes-section.html"
+sort_by="update_date"
 +++
