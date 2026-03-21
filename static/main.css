@@ -1,0 +1,74 @@
+html {
+  background-color: #272727;
+  color: #e5a3a3;
+  font-size: 1.25rem;
+  height: 100%;
+  margin: 0px;
+}
+
+a {
+  color: #fff;
+}
+
+.index,
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 99vh;
+  width: 100%;
+  transform: translateY(-10vh);
+}
+
+.contact .text {
+  margin-top: 2em;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5em;
+}
+
+.index .text {
+  max-width: 40rem;
+  margin-bottom: 1.5em;
+}
+
+.container-for-my-notes {
+  min-height: 90vh;
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#my-precious-notes {
+  width: 40vw;
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+#my-precious-notes i {
+  margin-bottom: 1rem;
+}
+
+.note-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.note-container header {
+  margin-top: 2rem;
+}
+
+.note-container .text {
+  width: 100%;
+  max-width: 35rem;
+  text-align: left;
+  margin-top: 2em;
+}

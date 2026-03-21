@@ -1,0 +1,21 @@
+{% extends '_base.html' %} 
+
+{% block description %}
+  A (short) note from my blog. Read to gain insights. Or don't, lol.
+{% endblock description %}
+
+{% block title %}
+  {{ page.title }}
+{% endblock title %}
+
+{% block content %}
+<div class="note-container">
+  <header>
+    <a href="{{get_url(path='@/_index.md')}}">homepage</a>
+    <a href="{{get_url(path='@/notes/_index.md')}}">other notes</a>
+  </header>
+  <div class="text">
+    {{ page.content | safe }}
+  </div>
+</div>
+{% endblock content %}

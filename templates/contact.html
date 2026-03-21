@@ -1,0 +1,24 @@
+{% extends '_base.html' %} 
+
+{% block description %}
+  {{ section.description }}
+{% endblock description %}
+
+{% block title %}
+  {{ section.title }}
+{% endblock title %}
+
+{% block content %}
+  <div class="contact">
+    <div>
+      <header>
+        <a href="{{ get_url(path='@/_index.md')}}">go to homepage</a>
+        <a href="{{ get_url(path='@/notes/_index.md')}}">read my notes</a>
+      </header>
+
+      <div class="text">
+        {{ section.content | safe}}
+      </div>
+    </div>
+  </div>
+{% endblock content %}

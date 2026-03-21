@@ -1,0 +1,40 @@
+{% extends '_base.html' %} 
+
+{% block description %}
+  {{ section.description }}
+{% endblock description %}
+
+{% block title %}
+  {{ section.title }}
+{% endblock title %}
+
+{% block content %}
+<div class="container-for-my-notes">
+  <header>
+    <a href="{{get_url(path='@/_index.md')}}">homepage</a>  .
+    <a href="#" id="random-page-link">random page!</a> . 
+    <a href="{{get_url(path='isgin01-website.zip')}}">content.zip</a>  .
+    <a href="{{get_url(path='isgin01-website-unbundle-with-git.bundle')}}">entire-website.bundle</a>
+  </header>
+  <div id="my-precious-notes">
+    <i>sorted by last modified date</i>
+    {% for page in section.pages %}
+      <a href="{{page.permalink}}">{{page.updated}} - {{page.title}}</a>
+    {% endfor %}
+  </div>
+<div>
+
+<script>
+var randomPageLink = document.getElementById("random-page-link");
+
+randomPageLink.addEventListener("click", function openRandomPage() {
+  var pageLinksContainer = document.getElementById("my-precious-notes");
+  var pageLinks = pageLinksContainer.getElementsByTagName("a");
+  var randomPageLinkIdx = Math.floor(Math.random() * pageLinks.length);
+  var randomPageLink = pageLinks[randomPageLinkIdx]
+
+  window.open(randomPageLink, "_self")
+})
+</script>
+
+{% endblock content %}

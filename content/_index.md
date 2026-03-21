@@ -1,28 +1,6 @@
 +++
-template = 'home.html'
-
-[extra]
-lang = 'en'
-
-# Show footer in home page
-footer = false
-
-# If you don't want to display id/bio/avatar, simply comment out that line
-name = "isgin01"
-# id = "isgin01"
-# bio = "JS developer"
-avatar = "avatar.webp"
-links = [
-    { name = "GitHub", icon = "github", url = "https://github.com/isgin01" },
-    { name = "Email", icon = "email", url = "mailto:isgin01@gmail.com" },
-    { name = "Telegram", icon = "telegram", url = "https://t.me/isgin01" },
-]
-
-# Show a few recent notes in home page
-recent = false
-recent_max = 15
-recent_more_text = "more »"
-date_format = "%b %-d, %Y"
+title="homepage"
+description="I take notes and post some of them here"
 +++
 
-Hello! I'm a full-stack developer. You can message me on any platform listed on the right or read my [hireme](/hireme) section.
+Hi, my username is `isgin01`, and this is my personal blog. You can navigate to my notes section, where I post some nice stuff. Also, you can read my contact section if you're looking to contact or hire me.

@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="{% block description %}{% endblock description %}"
+    />
+    <title>{% block title %}{% endblock title %} | isgin01's blog</title>
+    <link href="{{ get_url(path='main.css') }}" rel="stylesheet" />
+  </head>
+  <body>
+    {% block content %}{% endblock content %}
+  </body>
+</html>
