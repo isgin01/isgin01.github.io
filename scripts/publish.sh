@@ -5,7 +5,7 @@
 # Exit on errors
 set -e
 
-# Zola doesn't seem to support checks with provided path
+# Zola doesn't seem to support checks with a provided path
 cd ~/projects/blog/
 
 zola check

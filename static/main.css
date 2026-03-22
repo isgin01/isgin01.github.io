@@ -89,4 +89,10 @@ header {
   max-width: 35rem;
   text-align: left;
   margin-top: 2em;
+  /* margin-bottom: 30vh; */
+}
+
+#updated {
+  margin-top: 2em;
+  text-align: right;
 }
