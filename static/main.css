@@ -92,7 +92,7 @@ header {
   /* margin-bottom: 30vh; */
 }
 
-#updated {
+.updated {
   margin-top: 2em;
   text-align: right;
 }
