@@ -2,16 +2,12 @@
 
 # This script helps me to update my website!
 
+# Exit on errors
 set -e
 
+# Zola doesn't seem to support checks with provided path
 cd ~/projects/blog/
 
 zola check
-
-# Archive my entire website so that it could be downloaded
-
-git archive --format=zip --output=static/isgin01-website.zip HEAD
-
-git bundle create static/isgin01-website-clone-this-with-git.bundle --all
 
 lazygit
