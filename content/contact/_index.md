@@ -8,4 +8,4 @@ email: [isgin01@gmail.com](mailto:isgin01@gmail.com?subject=Hello!) </br>
 github: [https://github.com/isgin01](https://github.com/isgin01) </br>
 telegram: [https://t.me/isgin01](https://t.me/isgin01) </br>
 
-resume: N/A
+resume: N/A at the moment
