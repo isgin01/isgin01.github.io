@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="
+  These are my precious notes. I adore them and wish everybody could read them!
+"
+    />
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://isgin01.github.io/atom.xml">
+    <title>
+  notes
+ | isgin01's blog</title>
+    <link href="https://isgin01.github.io/main.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href='https://isgin01.github.io/favicon.ico' />
+  </head>
+  <body>
+    
+<div class="container-for-my-notes">
+  <header>
+    <a href="https://isgin01.github.io/">homepage</a>  
+    <a href="#" id="random-page-link">random page!</a> 
+    <a href="https://github.com/isgin01/isgin01.github.io">source</a>
+    <a href="/atom.xml">rss</a>
+  </header>
+  <ul id="my-precious-notes">
+    
+    	<li><a href="https:&#x2F;&#x2F;isgin01.github.io&#x2F;notes&#x2F;we-are-lucky-to-have-llms-as-programmers&#x2F;">2026-04-14 - We are lucky to have LLMs as programmers</a></li>
+    
+    	<li><a href="https:&#x2F;&#x2F;isgin01.github.io&#x2F;notes&#x2F;tackling-overwhelming-problems&#x2F;">2026-03-21 - Tackling overwhelming problems</a></li>
+    
+  </ul>
+<div>
+
+<script>
+var randomPageLink = document.getElementById("random-page-link");
+
+randomPageLink.addEventListener("click", function openRandomPage() {
+  var pageLinksContainer = document.getElementById("my-precious-notes");
+  var pageLinks = pageLinksContainer.getElementsByTagName("a");
+  var randomPageLinkIdx = Math.floor(Math.random() * pageLinks.length);
+  var randomPageLink = pageLinks[randomPageLinkIdx]
+
+  window.open(randomPageLink, "_self")
+})
+</script>
+
+
+  </body>
+</html>

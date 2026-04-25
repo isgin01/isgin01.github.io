@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>isgin01 | blog</title>
+    <subtitle>A waste of time</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://isgin01.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://isgin01.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-04-14T00:00:00+00:00</updated>
+    <id>https://isgin01.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>We are lucky to have LLMs as programmers</title>
+        <published>2026-04-14T00:00:00+00:00</published>
+        <updated>2026-04-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              isgin01
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://isgin01.github.io/notes/we-are-lucky-to-have-llms-as-programmers/"/>
+        <id>https://isgin01.github.io/notes/we-are-lucky-to-have-llms-as-programmers/</id>
+        
+        <content type="html" xml:base="https://isgin01.github.io/notes/we-are-lucky-to-have-llms-as-programmers/">&lt;p&gt;Before we had a monopoly on producing code, so that even the laziest people could get by. Now, they (probably) must watch out and compete. It is actually just awesome. Finally, there&#x27;s something that will push us to become keener, smarter, more skilled, and knowledgeable.&lt;&#x2F;p&gt;
+&lt;p&gt;Here&#x27;s my take: these next token prediction machines have made many of us realize that producing somewhat working code is not enough to be a programmer. It is (loosely speaking) the easiest part in fact.&lt;&#x2F;p&gt;
+&lt;p&gt;It was never about writing code in the first place. Instead, it is about thinking and solving problems. This is the hardest, most time-consuming, and most important part. LLMs are not able to do that for us.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tackling overwhelming problems</title>
+        <published>2026-03-21T00:00:00+00:00</published>
+        <updated>2026-03-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              isgin01
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://isgin01.github.io/notes/tackling-overwhelming-problems/"/>
+        <id>https://isgin01.github.io/notes/tackling-overwhelming-problems/</id>
+        
+        <content type="html" xml:base="https://isgin01.github.io/notes/tackling-overwhelming-problems/">&lt;p&gt;Yesterday I wasted a lot of time. I tweaked my code a little and ran it over and over again without thinking about what was actually wrong. It obviously made me feel very stressed and frustrated. It happened even though I thought I could easily recognize such moments and get myself back to my senses.&lt;&#x2F;p&gt;
+&lt;p&gt;A nice solution I&#x27;ve found is to open an empty file and write down my entire thinking process: make guesses, plan further actions, explore options, etc. It helps me to stay present and focused. Besides, I can save such a file and later revisit it to gain insights into what I was working on at the moment, and how I proceeded, if I ever need it later.&lt;&#x2F;p&gt;
+&lt;p&gt;It is similar to &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;calnewport.com&#x2F;deep-habits-workingmemory-txt-the-most-important-productivity-tool-youve-never-heard-of&#x2F;&quot;&gt;WorkingMemory.txt&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
