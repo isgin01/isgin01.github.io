@@ -1,6 +1,6 @@
 +++
 title="We are lucky to have LLMs as programmers"
-updated="2026-04-14"
+date="2026-04-14"
 +++
 
 Before we had a monopoly on producing code, so that even the laziest people could get by. Now, they (probably) must watch out and compete. It is actually just awesome. Finally, there's something that will push us to become keener, smarter, more skilled, and knowledgeable.

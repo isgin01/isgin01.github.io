@@ -14,11 +14,11 @@
     <a href="{{get_url(path='@/_index.md')}}">homepage</a>  
     <a href="#" id="random-page-link">random page!</a> 
     <a href="https://github.com/isgin01/isgin01.github.io">source</a>
+    <a href="/atom.xml">rss</a>
   </header>
   <div id="my-precious-notes">
-    <i>sorted by last modified date</i>
     {% for page in section.pages %}
-      <a href="{{page.permalink}}">{{page.updated}} - {{page.title}}</a>
+      <a href="{{page.permalink}}">{{page.date}} - {{page.title}}</a>
     {% endfor %}
   </div>
 <div>
