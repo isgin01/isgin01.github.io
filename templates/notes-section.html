@@ -16,11 +16,11 @@
     <a href="https://github.com/isgin01/isgin01.github.io">source</a>
     <a href="/atom.xml">rss</a>
   </header>
-  <div id="my-precious-notes">
+  <ul id="my-precious-notes">
     {% for page in section.pages %}
-      <a href="{{page.permalink}}">{{page.date}} - {{page.title}}</a>
+    	<li><a href="{{page.permalink}}">{{page.date}} - {{page.title}}</a></li>
     {% endfor %}
-  </div>
+  </ul>
 <div>
 
 <script>

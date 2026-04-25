@@ -51,11 +51,13 @@ header {
 }
 
 #my-precious-notes {
-  width: 40vw;
+  width: 35vw;
   margin-top: 4em;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
+  list-style-type: none;
+}
+
+#my-precious-notes li {
+  margin-bottom: 10px;
 }
 
 @media (max-width: 1024px) {
