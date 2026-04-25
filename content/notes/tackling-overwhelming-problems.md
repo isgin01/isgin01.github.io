@@ -1,6 +1,6 @@
 +++
 title = "Tackling overwhelming problems"
-updated = "2026-03-21"
+date = "2026-03-21"
 +++
 
 Yesterday I wasted a lot of time. I tweaked my code a little and ran it over and over again without thinking about what was actually wrong. It obviously made me feel very stressed and frustrated. It happened even though I thought I could easily recognize such moments and get myself back to my senses.

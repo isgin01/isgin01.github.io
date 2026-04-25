@@ -7,10 +7,13 @@ compile_sass = false
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = false
 
-[markdown]
+# RSS
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+default_language = "en"
 
-[markdown.highlighting]
-theme = "catppuccin-mocha"
+title="isgin01 | blog"
+description="A waste of time"
 
-[extra]
-# Put all your custom variables here
+# Needed for RSS
+author = "isgin01"
