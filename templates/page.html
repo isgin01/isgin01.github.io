@@ -1,7 +1,7 @@
 {% extends '_base.html' %} 
 
 {% block description %}
-  A (short) note from my blog. Read to gain insights. Or don't, lol.
+  A (short) post from my blog. Read to gain insights. Or don't, lol.
 {% endblock description %}
 
 {% block title %}
@@ -9,14 +9,14 @@
 {% endblock title %}
 
 {% block content %}
-<div class="note-container">
+<div class="post-container">
   <header>
     <a href="{{get_url(path='@/_index.md')}}">homepage</a>
-    <a href="{{get_url(path='@/notes/_index.md')}}">other notes</a>
+    <a href="{{get_url(path='@/posts/_index.md')}}">other posts</a>
   </header>
   <div class="text">
     {{ page.content | safe }}
-    <p class="date" ><i>date: {{ page.date}}</i></p>
+    <p class="date" ><i>{{ page.date }}</i></p>
   </div>
 </div>
 {% endblock content %}
