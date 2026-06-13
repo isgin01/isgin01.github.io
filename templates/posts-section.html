@@ -9,14 +9,14 @@
 {% endblock title %}
 
 {% block content %}
-<div class="container-for-my-notes">
+<div class="container-for-my-posts">
   <header>
     <a href="{{get_url(path='@/_index.md')}}">homepage</a>  
-    <a href="#" id="random-page-link">random page!</a> 
+    <a href="#" id="random-page-link">random</a> 
     <a href="https://github.com/isgin01/isgin01.github.io">source</a>
     <a href="/atom.xml">rss</a>
   </header>
-  <ul id="my-precious-notes">
+  <ul id="my-precious-posts">
     {% for page in section.pages %}
     	<li><a href="{{page.permalink}}">{{page.date}} - {{page.title}}</a></li>
     {% endfor %}
@@ -27,7 +27,7 @@
 var randomPageLink = document.getElementById("random-page-link");
 
 randomPageLink.addEventListener("click", function openRandomPage() {
-  var pageLinksContainer = document.getElementById("my-precious-notes");
+  var pageLinksContainer = document.getElementById("my-precious-posts");
   var pageLinks = pageLinksContainer.getElementsByTagName("a");
   var randomPageLinkIdx = Math.floor(Math.random() * pageLinks.length);
   var randomPageLink = pageLinks[randomPageLinkIdx]
