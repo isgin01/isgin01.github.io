@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>isgin01 | blog</title>
+    <subtitle>A waste of time</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://isgin01.github.io/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://isgin01.github.io"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-06-13T00:00:00+00:00</updated>
+    <id>https://isgin01.github.io/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Effective note taking</title>
+        <published>2026-06-13T00:00:00+00:00</published>
+        <updated>2026-06-13T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              isgin01
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://isgin01.github.io/posts/effective-note-taking/"/>
+        <id>https://isgin01.github.io/posts/effective-note-taking/</id>
+        
+        <content type="html" xml:base="https://isgin01.github.io/posts/effective-note-taking/">&lt;p&gt;I usually take a substantial amount of digital notes in my daily life. I&#x27;ve been doing it for a while now, and my note folder includes daily notes, task boards, project notes, plans, ideas, checklists, references, lists, templates, and a few others.&lt;&#x2F;p&gt;
+&lt;p&gt;You can see a lot of people online discussing how to set up their note taking systems for maximal productivity. It often involves installing a bunch of plugins inside Obsidian, creating a template system, a folder system, a tag system, bookmarks, workspaces, more than one vault, zettelkasten, etc. I see it as overkill for most cases, not to mention that, in my opinion, it will only lead to chaos and wasted time.&lt;&#x2F;p&gt;
+&lt;p&gt;In my case, my folders and files are organized naturally, as I think makes sense for every specific case. Also, I find it most comfortable to simply sort files by their creation time. Additionally, my notes don&#x27;t follow any kind of outline. Though I do usually put a lot of headings and checklists.&lt;&#x2F;p&gt;
+&lt;p&gt;One of the core principles in managing my note folder is to ensure that I have maximal control over it. It means that I generally don&#x27;t use any automation, AI, or analytics. Instead, I manually make every key stroke and manage every file in my note folder.&lt;&#x2F;p&gt;
+&lt;p&gt;Why do I think it is so important? Because this way I can ensure that I have a precise mental model of what is written in my notes and where. They don&#x27;t bother me, and I don&#x27;t think about them. I just use them. Notes should be a tool, not the final product.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>LLMs are good for programmers</title>
+        <published>2026-04-14T00:00:00+00:00</published>
+        <updated>2026-04-14T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              isgin01
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://isgin01.github.io/posts/llms-are-good-for-programmers/"/>
+        <id>https://isgin01.github.io/posts/llms-are-good-for-programmers/</id>
+        
+        <content type="html" xml:base="https://isgin01.github.io/posts/llms-are-good-for-programmers/">&lt;p&gt;These next-token prediction machines have made many of us realize that producing somewhat working code is not enough to be a programmer. It is (loosely speaking) the easiest part, in fact.&lt;&#x2F;p&gt;
+&lt;p&gt;When there&#x27;s a machine that can produce tons of low-quality code much quicker than us, we have to become machines that prioritize the quality of our code and our own understanding.&lt;&#x2F;p&gt;
+&lt;p&gt;It was never about writing code in the first place. Instead, it is about thinking and solving problems, translating your understanding into code. This is the hardest, most time-consuming, and most important part. LLMs can&#x27;t do that for us.&lt;&#x2F;p&gt;
+&lt;p&gt;Just like in math, you can use machines to calculate an equation for you. But the machine doesn&#x27;t actually understand math. It only does computation. It&#x27;s you who does the math by deciding what to solve and how.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tackling overwhelming problems</title>
+        <published>2026-03-21T00:00:00+00:00</published>
+        <updated>2026-03-21T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              isgin01
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://isgin01.github.io/posts/tackling-overwhelming-problems/"/>
+        <id>https://isgin01.github.io/posts/tackling-overwhelming-problems/</id>
+        
+        <content type="html" xml:base="https://isgin01.github.io/posts/tackling-overwhelming-problems/">&lt;p&gt;Yesterday I wasted a lot of time. I tweaked my code a little and ran it over and over again without thinking about what was actually wrong. It obviously made me feel very stressed and frustrated. It happened even though I thought I could easily recognize such moments and get myself back to my senses.&lt;&#x2F;p&gt;
+&lt;p&gt;A nice solution I&#x27;ve found is to open an empty file and write down my entire thinking process: make guesses, plan further actions, explore options, etc. It helps me to stay present and focused. Besides, I can save such a file and later revisit it to gain insights into what I was working on at the moment, and how I proceeded, if I ever need it later.&lt;&#x2F;p&gt;
+&lt;p&gt;It is similar to &lt;a rel=&quot;external&quot; href=&quot;https:&#x2F;&#x2F;calnewport.com&#x2F;deep-habits-workingmemory-txt-the-most-important-productivity-tool-youve-never-heard-of&#x2F;&quot;&gt;WorkingMemory.txt&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
