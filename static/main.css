@@ -90,11 +90,18 @@ header {
   width: 100%;
   max-width: 35rem;
   text-align: left;
-  margin-top: 2em;
+  margin-top: 3em;
   /* margin-bottom: 30vh; */
 }
 
-.date {
-  margin-top: 2em;
-  text-align: right;
+.giscuss,
+.comments {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 35rem;
+  margin-bottom: 12rem;
+}
+
+.gsc-reactions {
+  text-align: left;
 }
