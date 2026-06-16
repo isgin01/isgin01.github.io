@@ -1,5 +1,5 @@
 +++
-title="LLMs are good for programmers"
+title="LLMs might make us better at programming"
 date="2026-04-14"
 +++
 
