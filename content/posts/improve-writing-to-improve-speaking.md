@@ -7,7 +7,7 @@ When learning a new subject, you inevitably hit walls and plateaus. There are wa
 
 I've hit a plateau in my speaking skills. It is common to say that if you want to improve at something, you should do the activity directly. Well, I think it is not quite the case for speaking.
 
-I think that speaking is heavily influenced by how well you can write in your target language. To improve speaking skills, you have to improve your writing as well. Grammar, structure, word choice - all of that matters.
+I think that speaking is heavily influenced by how well you can write in your target language. To improve speaking skills, you have to improve your writing as well. Grammar, structure, word choice - all of that matters. Speaking might be an essential to exercise fluency, nevertheless.
 
 I've studied intentionally here and there from time to time, hoping I would grasp it naturally. Now I think it's not the best way to go about it. I haven't improved much in speaking and writing without intentional study, even though I spoke and wrote a lot.
 
