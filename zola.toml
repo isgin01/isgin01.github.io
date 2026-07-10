@@ -13,7 +13,7 @@ feed_filenames = ["atom.xml"]
 default_language = "en"
 
 title="isgin01 | blog"
-description="A waste of time"
+description="A waste of time."
 
 # Needed for RSS
 author = "isgin01"
