@@ -1,5 +1,5 @@
 +++
-title = "Tackling overwhelming problems"
+title = "Tackling Overwhelming Problems"
 date = "2026-03-21"
 +++
 

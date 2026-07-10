@@ -1,5 +1,5 @@
 +++
-title="LLMs might make us better at programming"
+title="LLMs Might Make Us Better At Programming"
 date="2026-04-14"
 +++
 

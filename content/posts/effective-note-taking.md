@@ -1,5 +1,5 @@
 +++
-title="Effective note taking"
+title="Effective Note Taking"
 date="2026-06-13"
 +++
 
