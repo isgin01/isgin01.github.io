@@ -1,6 +1,8 @@
 # The URL the site will be built for
 base_url = "https://isgin01.github.io"
 
+title="isgin01 | blog"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = false
 
@@ -11,9 +13,6 @@ build_search_index = false
 generate_feeds = true
 feed_filenames = ["atom.xml"]
 default_language = "en"
-
-title="isgin01 | blog"
-description="A waste of time."
 
 # Needed for RSS
 author = "isgin01"
