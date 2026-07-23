@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="
+  My publications
+"
+    />
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="https://isgin01.github.io/atom.xml">
+    <title>
+  posts
+ | isgin01's blog</title>
+    <link href="https://isgin01.github.io/main.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href='https://isgin01.github.io/favicon.ico' />
+  </head>
+  <body>
+    
+<div class="container-for-my-posts">
+  <header>
+    <a href="https://isgin01.github.io/">homepage</a>  
+    <a href="#" id="random-page-link">random</a> 
+    <a href="https://github.com/isgin01/isgin01.github.io">source</a>
+    <a href="/atom.xml">rss</a>
+  </header>
+  <ul id="my-precious-posts">
+    
+    	<li><a href="https:&#x2F;&#x2F;isgin01.github.io&#x2F;posts&#x2F;explanation-of-zettelkasten&#x2F;">2026-06-16 - A Short Explanation Of The Zettelkasten Method</a></li>
+    
+  </ul>
+<div>
+
+<script>
+var randomPageLink = document.getElementById("random-page-link");
+
+randomPageLink.addEventListener("click", function openRandomPage() {
+  var pageLinksContainer = document.getElementById("my-precious-posts");
+  var pageLinks = pageLinksContainer.getElementsByTagName("a");
+  var randomPageLinkIdx = Math.floor(Math.random() * pageLinks.length);
+  var randomPageLink = pageLinks[randomPageLinkIdx]
+
+  window.open(randomPageLink, "_self")
+})
+</script>
+
+
+  </body>
+</html>
